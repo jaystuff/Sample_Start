@@ -1,6 +1,16 @@
-span {
+#line {
 	display: block;
 	background: green;
 	width: 500px;
 	height: 3px;
+}
+
+#pic {
+	border-radius: 3px;
+	transition: 200ms;
+	transform-origin: top;
+}
+
+#pic:hover {
+	transform: scale(5);
 }
