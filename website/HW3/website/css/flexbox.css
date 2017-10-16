@@ -1,0 +1,56 @@
+﻿body {
+	text-align: center;
+}
+
+body, header, nav, footer {
+	width: 800px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+header, nav, footer {
+	height: 30px;
+}
+
+article, section {
+	width: 533px;
+}
+
+body, a {
+	color: white;
+}
+
+header {
+	background-color: blue;
+}
+
+nav, footer {
+	background-color: green;
+}
+
+li {
+	display: inline;
+}
+
+article {
+	background-color: pink;
+}
+
+section {
+	height: 60px;
+	margin: 5px 0;
+	background-color: brown;
+}
+
+aside {
+	width: 267px;
+	background-color: cyan;
+}
+
+article, aside {
+	height: 266px;
+}
