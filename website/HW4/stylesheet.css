@@ -1,0 +1,9 @@
+#error {
+	color: red;
+}
+
+#stars {
+	border: 2px solid green;
+	padding: 5px;
+	width: auto;
+}
