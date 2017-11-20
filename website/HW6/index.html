@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>HW 6</title>
+  <link href="stylesheet.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="columns">
+		<div class="left">
+			<div id="content">
+				<p>Candidate List<p>
+				<table id="table" border="1">
+					<tr>
+						<td>Peter Parker</td>
+						<td><span>700</span><input type='button' value='Like' onclick='increaseValue(this)' class='like'></input></td>
+						<td><input type='button' value='Delete' onclick='removeRow(this)' class='remove'></input></td>
+					</tr>
+					<tr>
+						<td>Tony Stark</td>
+						<td><span>135</span><input type='button' value='Like' onclick='increaseValue(this)' class='like'></input></td>
+						<td><input type='button' value='Delete' onclick='removeRow(this)' class='remove'></input></td>
+					</tr>
+					<tr>
+						<td>Dash</td>
+						<td><span>0</span><input type='button' value='Like' onclick='increaseValue(this)' class='like'></input></td>
+						<td><input type='button' value='Delete' onclick='removeRow(this)' class='remove'></input></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="right">
+			<div id="content">
+				<p>Create a Candidate</p>
+				<input placeholder="Name" class="enter" type="text" id="candidate" />
+				<input type="button" value="Create" onclick="addRow()" class="enter" id="add" />
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
