@@ -4,6 +4,9 @@ const path = require("path")
 const bodyParser = require('body-parser')
 const apiRouter = require('./api')
 
+const DEFAULT_PORT = 3377
+const port = process.env.PORT || DEFAULT_PORT
+
 // application server
 const app = express()
 
@@ -31,6 +34,6 @@ app.get('/', (req, res) => {
 // for all methods
 app.use('/api', apiRouter)
 
-app.listen(8088)
+app.listen(port)
 
-console.log('App started on 8088...')
+console.log('Server listening at port ${port}')
