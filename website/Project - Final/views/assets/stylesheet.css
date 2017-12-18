@@ -1,0 +1,154 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+#header {
+	height: 100px;
+	background: #333;
+	padding: 35px 35px 0px 35px;
+}
+
+#header h2 {
+	color: #fff;
+}
+
+#table {
+	margin: 25px;
+	background: #f9f9f9;
+	border: 1px solid #d9d9d9;
+	border-radius: 2px;
+	padding: 5px 15px;
+	width: fit-content;
+}
+
+table, th, td, tr {
+	border: 0;
+	margin: 0;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 20px;
+	margin: 0;
+}
+
+td {
+	border-top: 1px solid #d9d9d9;
+}
+
+td:first-of-type, .form p {
+	font-weight: bold;
+}
+
+td:nth-of-type(5), td:nth-of-type(6), td:nth-of-type(7) {
+	padding: 2px;
+}
+
+tr button {
+    margin: 15px 5px;
+}
+
+.link {
+	text-decoration: none;
+	background: #3498db;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 2px;
+	padding: 4px 16px;
+	margin: 10px 2px;
+}
+
+.link, input[type="button"] {
+	transition: 100ms;
+	opacity: .7;
+}
+
+.link:hover, #current, input[type="button"]:hover {
+	opacity: 1;
+}
+
+#details {
+	border-color: #3498db;
+	color: #3498db;
+}
+
+#details:hover {
+	background: #3498db;
+	color: #fff;
+}
+
+#edit {
+	border-color: #f1c40f;
+	color: #f1c40f;
+}
+
+#edit:hover {
+	background: #f1c40f;
+	color: #fff;
+}
+
+#del {
+	border-color: #e74c3c;
+	color: #e74c3c;
+}
+
+#del:hover {
+	background: #e74c3c;
+	color: #fff;
+}
+
+i {
+	margin-right: 7px;
+}
+
+#add-page, #edit-page, #detail-page {
+	background: #f9f9f9;
+	width: fit-content;
+	height: fit-content;
+	padding: 15px 15px 40px 15px;
+	margin: 25px;
+	border-radius: 2px;
+	border: 1px solid #d9d9d9;
+}
+
+#detail-page {
+	width: 400px;
+}
+
+#detail-page button {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#add-page h3, #edit-page h3, #detail-page h3 {
+	text-align: center;
+}
+
+#add-page input, #edit-page input {
+	width: 460px;
+	padding: 12px 14px;
+	margin: 5px;
+	border-radius: 2px;
+	border: 1px solid #d9d9d9;
+}
+
+.submit {
+	width: auto;
+	font-size: 12px;
+	background: #2ecc71;
+	color: #fff;
+	border: 1px solid #2ecc71;
+	border-radius: 2px;
+	transition: 100ms;
+	margin: 5px;
+}
+
+.submit:hover {
+	color: #2ecc71;
+	background: #fff;
+}

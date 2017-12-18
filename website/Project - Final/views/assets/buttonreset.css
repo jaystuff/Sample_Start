@@ -1,0 +1,19 @@
+input[type="submit"],
+input[type="button"],
+button {
+    padding: 0;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 2px;
+    line-height: 25px;
+    padding: 0 10px;
+	font-size: 10px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+input[type="submit"]:focus,
+input[type="button"]:focus,
+button {
+	outline: 0;
+}
